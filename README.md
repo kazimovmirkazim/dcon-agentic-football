@@ -146,17 +146,28 @@ cd agents && ./deploy-all.sh ai-gk   # deploy one position with the AgentCore st
 
 Deploying needs your own AWS account with Bedrock AgentCore access. No credentials are stored in this repo.
 
-## Match gallery
+## Match gallery ⚽
 
-![DCON live match vs Burger bros — real-time coach feed on the right](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-live-coach.jpg)
+> Real screenshots from our matches at the AWS Agentic Football Cup, Baku — 17 Oct 2026.
 
-| Kick-off: DCON (pink) vs Burger bros | Coach "shout" sent to the agents mid-match |
+![Match intro](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-intro.jpg)
+*Match day: DCON vs Burger bros (PvP, live).*
+
+![Live match with coach feed](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-live-coach.jpg)
+*Live view: score, clock, mini-map, and the **Coach Live Feed** on the right, where both coaches send real-time instructions to their agents.*
+
+| Kick-off formation | Apex (MID) on the ball |
 |---|---|
-| ![kick-off](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-kickoff.jpg) | ![coach shout](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-coach-shout.jpg) |
+| ![kick-off](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-kickoff.jpg) | ![action](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-action.jpg) |
+| DCON (pink) lines up 2-1-1 + GK against Burger bros. | Our midfielder carries the ball up the wing while the coach box waits for a "shout". |
 
-**Pre-match fitness:** all 5 agents pass, 25 commands, 100 % active, **97 ms average latency**
+| The stadium | Coach "shout" in action |
+|---|---|
+| ![stadium](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-stadium.jpg) | ![coach shout](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-coach-shout.jpg) |
+| The 3D pitch the agents play on. | Mid-match instruction *"Apex pass to Ares! Ares Zero SHOOT"* sent from the coach box. |
 
 ![team fitness](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/team-fitness.jpg)
+*Pre-match fitness check after the v8 deploy: all 5 agents **PASS**, 25 commands, 100 % active, **97 ms** average latency.*
 
 ## Team
 Coach: Mirkazim Kazimov — [LinkedIn](https://linkedin.com/in/mirkazimkazimov) · [GitHub](https://github.com/kazimovmirkazim)
