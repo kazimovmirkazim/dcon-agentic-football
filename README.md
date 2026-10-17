@@ -8,15 +8,9 @@ Built on top of the official AWS sample:
 [aws-samples/sample-ai-possibilities → agentic-football-sample-agents](https://github.com/aws-samples/sample-ai-possibilities)
 (MIT-0, see `LICENSE-aws-sample`).
 
-![DCON live match vs Burger bros — real-time coach feed on the right](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-live-coach.jpg)
+## Architecture
 
-| Kick-off: DCON (pink) vs Burger bros | Coach "shout" sent to the agents mid-match |
-|---|---|
-| ![kick-off](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-kickoff.jpg) | ![coach shout](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-coach-shout.jpg) |
-
-**Pre-match fitness:** all 5 agents pass, 25 commands, 100 % active, **97 ms average latency**
-
-![team fitness](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/team-fitness.jpg)
+![architecture](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/architecture.png)
 
 ## Results in numbers
 
@@ -151,6 +145,18 @@ cd agents && ./deploy-all.sh ai-gk   # deploy one position with the AgentCore st
 ```
 
 Deploying needs your own AWS account with Bedrock AgentCore access. No credentials are stored in this repo.
+
+## Match gallery
+
+![DCON live match vs Burger bros — real-time coach feed on the right](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-live-coach.jpg)
+
+| Kick-off: DCON (pink) vs Burger bros | Coach "shout" sent to the agents mid-match |
+|---|---|
+| ![kick-off](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-kickoff.jpg) | ![coach shout](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/match-coach-shout.jpg) |
+
+**Pre-match fitness:** all 5 agents pass, 25 commands, 100 % active, **97 ms average latency**
+
+![team fitness](https://raw.githubusercontent.com/kazimovmirkazim/dcon-agentic-football/main/docs/team-fitness.jpg)
 
 ## Team
 Coach: Mirkazim Kazimov — [LinkedIn](https://linkedin.com/in/mirkazimkazimov) · [GitHub](https://github.com/kazimovmirkazim)
